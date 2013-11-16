@@ -1,0 +1,30 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "2014 Tickets"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='subnav']//span[.='Qualification']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The Open Qualifying Series will comprise 14 events in nine countries on five continents and will offer players the opportunity to qualify for golf’s oldest Major Championship at prestigious events on the"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The Open Qualifying Series"
+    }
+  ]
+}
