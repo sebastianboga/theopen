@@ -1,0 +1,55 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Tweets"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Patrons of The Open 2014"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The R&A extends its gratitude to its Patrons for their support of The Open Championship."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "www.theopen.com"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Contact Us"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Cookie Info"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Credits"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Disclaimer"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Privacy Policy"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "R&A Trademarks"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Ticket Terms and Conditions"
+    }
+  ]
+}
