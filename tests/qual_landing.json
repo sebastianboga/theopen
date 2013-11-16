@@ -21,6 +21,10 @@
     {
       "type": "verifyTextPresent",
       "text": "The Open Qualifying Series will comprise 14 events in nine countries on five continents and will offer players the opportunity to qualify for golf’s oldest Major Championship at prestigious events on the"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The Open Qualifying Series"
     }
   ]
 }
