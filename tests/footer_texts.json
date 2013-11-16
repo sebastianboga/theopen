@@ -9,10 +9,6 @@
     },
     {
       "type": "verifyTextPresent",
-      "text": "Tweets"
-    },
-    {
-      "type": "verifyTextPresent",
       "text": "Patrons of The Open 2014"
     },
     {
