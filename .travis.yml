@@ -1,5 +1,7 @@
 language: node_js
+before_script:
+    - "npm install -g se-interpreter"
 script:
-    - "./interpreter.js travis_config.json"
+    - "se-interpreter interpreter_config.json"
 env:
     global:
