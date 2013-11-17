@@ -1,0 +1,22 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.usernotloggedin > li > a"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "The R&A Film Archive is a unique collection of over 1,900 hours of footage and programming dating back to 1898. Events within The R&A Film Archive include: The Open Championship, the Amateur Championship,"
+    }
+  ]
+}
