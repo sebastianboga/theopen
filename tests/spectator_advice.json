@@ -1,0 +1,22 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.theopen.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Spectator Advice"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "156 competitors will play 36 holes of stroke play on Thursday 17 and Friday 18 July. The leading 70 players and ties will play a further 36 holes on Saturday 19 and Sunday 20 July. The Champion will be"
+    }
+  ]
+}
