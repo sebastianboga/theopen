@@ -8,23 +8,15 @@
       "url": "http://www.theopen.com/"
     },
     {
-      "type": "verifyTextPresent",
-      "text": "2014 Tickets"
-    },
-    {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='subnav']//span[.='Qualification']"
+        "type": "link text",
+        "value": "Spectator Advice"
       }
     },
     {
       "type": "verifyTextPresent",
-      "text": "The Open Qualifying Series will comprise 14 events in nine countries on five continents and will offer players the opportunity to qualify for golf’s oldest Major Championship at prestigious events on the"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "The Open Qualifying Series"
+      "text": "156 competitors will play 36 holes of stroke play on Thursday 17 and Friday 18 July. The leading 70 players and ties will play a further 36 holes on Saturday 19 and Sunday 20 July. The Champion will be"
     }
   ]
 }
